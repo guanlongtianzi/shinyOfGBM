@@ -1,6 +1,6 @@
 # shinyOfGBM
 基于shiny的GBM，使用到了`shiny`、`xgboost`、`data.table`、`Matrix`、`rmarkdown`、`ggplot2`等`R`包，使用方法为：
-```s
+```R
 if(!require(shiny)) {
   install.packages(pkgs = 'shiny',quiet = TRUE)
   require(shiny)
